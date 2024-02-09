@@ -7,6 +7,12 @@
     background-image: url(img/bgMAIN.png);
     
 }
+.planet {
+    width: 405px;
+    height: 330px;
+    padding-right: 20px; 
+    transform: rotate(176deg);
+}
 section {
     background-position: center;
     background-size: cover;
