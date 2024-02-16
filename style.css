@@ -149,3 +149,52 @@ text-decoration: none;
     margin-bottom: 20px;
     font-family: 'Comfortaa';
 }
+.about-card{
+background-image: 
+    url(img/form2.png);
+background-repeat: 
+                no-repeat;
+width: 376px;
+height: 346px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 20px;
+position: relative;
+
+
+}
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Comfortaa';
+}
+
+.about-card img{
+    padding-bottom: 20px;
+}
+.moving-cloud{
+    background-image: 
+    url(img/cloud.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 162px;
+    transform: rotate(-15deg);
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    animation-name: cloud-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes cloud-move {
+    from{transform: translateY(0px)};
+    to{transform: translateY(100px)};
+
+}
