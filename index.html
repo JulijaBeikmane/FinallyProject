@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">DK</h1>
+            <div class="nav-links">
+                <a href="#main" class="nav-link main-link active">Главная</a>
+                <a href="#about" class="nav-link about-link">Обо мне </a>
+                <a href="#skills" class="nav-link skills-link">Навыки</a>
+                <a href="#works" class="nav-link works-link">Работы</a>
+                <a href="#comments" class="nav-link comments-link">Отзывы</a>
+            </div>
+        </div>
+    </nav>
     <section id="main">
         <div  class="main-block">
             <div class="moving-planet">
@@ -84,8 +98,18 @@
             <img src="img/work1.png">
             <img src="img/work2.png">
             <img src="img/work3.png">
-            
         </div>
+      
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="https://www.dartmoorzoo.org.uk/wp-content/uploads/2021/01/Tiger-1.jpg" >
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://aldf.org/wp-content/uploads/2021/10/GettyImages-141467674-crop.jpg" >
+                  </div>
+                </div>
+            </div>
     </section>
     <section id="comments">
         <h1 class="title">ОТЗЫВЫ</h1>
@@ -100,9 +124,37 @@
                     Эта девочка проходила обучение веб разработке 4 месяца, и уже создает сложные сайты!
                 </p>
             </div>
+            <div class="comment-card">
+                <img src="img/photo2.png">
+                <h3>Диана</h3>
+                <p>Product Lead Rocket Tech School</p>
+            </div>
+            <div class="comment">
+                <p>
+                    Очень хорошо пишет код.
+                    Отличная оптимизация сайта.
+                    Современно, стильно, молодежно!
+                </p>
+            </div>
         </div>
     </section>
-
+    <footer>
+        <div class="footer-info">
+            <p>ДИАНА КОРНИГОР</p>
+            <p>Личный сайт веб разработчика</p>
+        </div>
+        <div class="footer-year">
+            <p>© 2023</p>
+        </div>
+        <div class="footer-links">
+            <a href="#"> <img src="img/facebook.svg"> </a>
+            <a href="#"> <img src="img/instagram.svg"> </a>
+            <a href="#"> <img src="img/telegram.svg"> </a>
+            <a href="#"> <img src="img/discord.svg"> </a>
+        </div>
+     </footer>
+     
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

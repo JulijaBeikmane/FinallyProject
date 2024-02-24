@@ -2,8 +2,10 @@
 * {
     margin: 0;
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 #main {
+    z-index: 2;
     background-image: url(img/bgMAIN.png);
     
 }
@@ -13,6 +15,19 @@
     padding-right: 20px; 
     transform: rotate(176deg);
 }
+/* .main-content{
+    z-index: 2;
+}
+.planet{
+    background: url(img/planet.png);
+    background-repeat: no-repeat;
+    width: 405px;
+    height: 330px;
+    transform: rotate(-176deg);  
+    position: absolute; 
+    right: 20px;   
+    z-index: 1;
+} */
 section {
     background-position: center;
     background-size: cover;
@@ -31,6 +46,16 @@ section {
 #works {
     background-image: url(img/bgWORKS.png);
     
+}
+.swiper-slide img {
+    width: 600px;
+    height: auto;
+    width: 700px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
 }
 #comments {
     background-image: url(img/bgCOMMENTS.png);
@@ -282,4 +307,63 @@ position: relative;
     font-family: "Comfortaa";
     font-size: 20px;
     max-width: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+footer{
+    background-color: #200153;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+}
+ 
+.footer-info p{
+    font-family: 'Comfortaa';
+    padding-bottom: 10px;
+}
+ 
+.footer-year p{
+    font-family: 'Comfortaa';
+    letter-spacing: 1.5px;
+}
+ 
+.footer-links a{
+    margin-right: 15px;
+}
+nav {
+    position: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-right: 150px;
+}
+.nav-link {
+    width: 112px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background-color: #FFF;
+    text-decoration: none;
+    color:#000;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo {
+    color: #BBFF2C;
+    font-size: 80px;
+    padding-left: 50px;
+}
+.active {
+    background-color: #BBFF2C;
 }
