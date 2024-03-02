@@ -36,5 +36,4 @@ window.onscroll = function() {
     newActiveBtn.classList.add('active')
     activeBtn.classList.remove('active')
   }
-  console.log(newActiveBtn)
 }
