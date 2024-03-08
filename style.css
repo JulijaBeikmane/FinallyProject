@@ -98,6 +98,14 @@
         font-size: 15px;
         max-width: 290px;
     }
+    .button{
+        width: 150px;  
+        height: 40px;
+        z-index: 2;   
+    } 
+    .button a{
+        font-size: 15px;
+    }
 }
 /* .fixed-menu{
     z-index: 0;
